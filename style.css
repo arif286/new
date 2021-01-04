@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+#topbar{
+    background: #FFC107;
+}
+.phone{
+    width: 225px;
+    float: left;
+    padding: 15px 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    color: ghostwhite;
+}
+.email {
+    width: 764px;
+    float: left;
+    padding: 15px 10px;
+    color: ghostwhite;
+}
+.socialcontact{
+    width: 138px;
+    float: left;
+    transition: 0.5s;
+}
+.socialcontact i:hover{
+    color: tomato;
+}
+.topbarwrapper{
+    overflow: hidden;
+}
+.socialcontact a{
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: #2196F3;
+}
+.socialcontact a:first-child{
+    border-left: 1px solid #ddd;
+}
+.phone i{
+    color: #2196F3;
+}
+.email i{
+    color: #2196F3;
+    padding: 0px 7px 0px 0px;
+}
+#secondbar{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.homeslider h1 {
+    font-size: 50px;
+    line-height: 0.7;
+}
+
+span.myname {
+    color: orange;
+    font-weight: 600;
+}
+.homeslider {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+.homeslider img {
+    width: 500px;
+    float: right;
+}
+a.linkbtn {
+    text-decoration: none;
+    width: 80px;
+    background: #ffa500;
+    display: block;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: 0.7s;
+}
+
+a.linkbtn:hover {
+    background: #a14333;
+}
+.homeslider h3 {
+    transition: 1s;
+    font-size: 20px;
+}
+
+.homeslider:hover h3 {
+    color: tomato;
+    font-size: 26px;
+}
+.homeslider p {
+    text-align: justify;
+    color: #888585;
+}
+.next-slider1 {
+    width: 50%;
+    float: left;
+}
+
+.next-slider1 img {
+    width: 500px;
+    float: left;
+}
+.next-slider {
+    width: 50%;
+    float: right;
+}
+.next-slider h2 {font-size: 40px;text-transform: uppercase;}
+
+.next-slider h3 {
+    font-size: 20px;
+    transition: 0.7s;
+    color: orange;
+}
+
+.next-slider:hover h3 {
+    font-size: 26px;
+    color: tomato;
+}
+
+.next-slider p {
+    color: #888585;
+    text-align: justify;
+
+}
+#newbar{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+}
+.next-slider a.btn{
+    text-decoration: none;
+    background: linear-gradient(45deg, #03A9F4, #4CAF50);
+    padding: 10px;
+    width: 180px;
+    display: block;
+    text-align: center;
+    color: #ddd;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: 2s;
+    transition-delay: 0.7s;
+}
+
+.next-slider:hover a.btn{
+    background: #7f3a24;
+    
+}
+.single-experience{
+    width: 433px;
+    float: left;
+    padding: 0px 60px;
+    margin-right: 50px;
+}
+section.experience-area {
+    height: 500px;
+}
+
+.single-experience p {
+    text-align: justify;
+    color: #888585;
+}
+.single-experience h2 {
+    text-transform: uppercase;
+}
+h3.highlight {
+    color: orange;
+    transition: 0.7s;
+}
+
+h3.highlight:hover {
+    color: tomato;
+    font-size: 20px;
+}
+.box-contant {
+    box-shadow: 10px 10px 40px gray;
+    height: 350px;
+}
+.single-experience:last-child {
+    margin-right: 0px;
+}
+.experience-area{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+div#Junior-Stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, #4CAF50);
+    border-image-slice: 1;
+}
+
+div#Full-Stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #FFC107, #00BCD4);
+    border-image-slice: 1;
+}
+footer {
+    text-align: center;
+    font-size: 12px;
+}
